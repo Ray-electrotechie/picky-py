@@ -1,0 +1,24 @@
+{
+  "speedy_config" : {
+    "header" :
+    {
+       "program_announce" : "Speedy2 Nordic nRF52840 Dongle Programmer"
+    },
+    "left_column" :
+    {
+      "font" : [ "FreeMono",28,"bold"],
+      "width_in_chars" : 18,
+      "file_select_button" :
+      {
+        "announce_no_file" : "choose file\nto upload",
+        "announce_file" : "current file=\n***\npush to change"
+      }
+    },
+    "right_column" : {
+      "header_text" : "Below a record of activity, also in the log",
+      "font" : [ "Yrsa",20,"bold"],
+      "width_in_chars" : 55,
+      "number_of_lines" : 16
+    }
+  }
+}
