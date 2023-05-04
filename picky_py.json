@@ -1,0 +1,36 @@
+{
+    #Json with built in comments.
+    //defaults are mandatory.
+    "default_font_face" : "FreeMono",
+    "default_text_color" : "black",
+    "default_font_style" : "bold",
+    "default_width_in_chars" : 22,
+    //Fonts should always be provided with 3 entries, the face, the width of M and the strength.
+    // in text strings the sequence \n inserts a new line character in the output.
+    "program_announce" : "  Picky_py the PIC16F15214 Chip Programmer ",
+    "left_width_in_chars" : 18,  // Number of characters in the left hand column.
+    "file_none_colour" : "white on grey",
+    "file_ready_colour" : "white on green",
+    "file_font" : [ "FreeMono",14,"bold"],
+    "file_enter_height" : 5, //number of text lines defining the file entry button
+    "file_announce_no" : "choose file\nto upload", //text in the select file button when no file chosen.
+    "file_announce" : "current file=\n***\npush to change",  //text in file button once file chosen
+    // The three *** above are replaced with the file name chosen.
+    "action_button_font" : [ "FreeMono",28,"bold"],
+    "action_button_height" : 6, //height in lines of text of action button.
+    "action_button_no_programmer" : "Searching for\nPickit 3",
+    "action_disabled" : "white on red", //Because AUTO is active.
+    "action_enabled" : "white on green", //Because there is a chip available and not in auto.
+    "auto_button_font" : [ "FreeMono",22,"bold"],
+    "auto_button_height" : "4", //number of text lines defining the auto button.
+    "auto_on_text" : "AUTO is ON\n all inserted chips\nwill be programmed",
+    "auto_on_colour" : "white on green",
+    "auto_off_text" : "AUTO is OFF\npush button above\nto programme",
+    "auto_off_colour" : "white on red",
+    "announce_font" : [ "FreeMono",28,"bold"],
+    
+    "right_header_text" : "Below a record of activity, also in the log",
+    "right_font" : [ "Yrsa",20,"bold"],
+    "right_width_in_chars" : 80,
+    "right_number_of_lines" : 16
+}

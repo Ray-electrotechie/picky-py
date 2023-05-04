@@ -1317,3 +1317,2592 @@ TCL version:8.6.10
 27/11/2022 19:33Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
 27/11/2022 19:33 Seeking PIC16F15214 to programme
 27/11/2022 19:34Exited gracefully
+
+
+
+New session at 02/12/2022 18:47 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+02/12/2022 18:47User ray is logged on
+
+02/12/2022 18:47Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+02/12/2022 18:47 Seeking PIC16F15214 to programme
+02/12/2022 18:47 Started manual upload
+02/12/2022 18:47 Successful upload to 
+02/12/2022 18:47 Checking for chip removed
+02/12/2022 18:48Exited gracefully
+
+
+
+New session at 03/12/2022 05:45 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 05:45User ray is logged on
+
+03/12/2022 05:45Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 05:45 Seeking PIC16F15214 to programme
+03/12/2022 05:45Exited gracefully
+
+
+
+New session at 03/12/2022 05:57 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 05:57User ray is logged on
+
+03/12/2022 05:57Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 05:57 Seeking PIC16F15214 to programme
+03/12/2022 05:59Exited gracefully
+
+
+
+New session at 03/12/2022 06:01 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 06:01User ray is logged on
+
+03/12/2022 06:01Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 06:01 Seeking PIC16F15214 to programme
+03/12/2022 06:03Exited gracefully
+
+
+
+New session at 03/12/2022 06:04 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 06:04User ray is logged on
+
+03/12/2022 06:04Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 06:04 Seeking PIC16F15214 to programme
+03/12/2022 06:04Exited gracefully
+
+
+
+New session at 03/12/2022 06:05 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 06:05User ray is logged on
+
+03/12/2022 06:05Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 06:05 Seeking PIC16F15214 to programme
+03/12/2022 06:06Exited gracefully
+
+
+
+New session at 03/12/2022 06:07 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 06:07User ray is logged on
+
+03/12/2022 06:07Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 06:07 Seeking PIC16F15214 to programme
+03/12/2022 06:08Exited gracefully
+
+
+
+New session at 03/12/2022 10:35 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 10:35User ray is logged on
+
+03/12/2022 10:35Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 10:35 Seeking PIC16F15214 to programme
+03/12/2022 10:35 Auto upload turned on
+03/12/2022 10:35 Started auto upload
+03/12/2022 10:35 Auto upload turned off
+03/12/2022 10:35 Successful upload
+03/12/2022 10:35 Checking for chip removed
+03/12/2022 10:36Exited gracefully
+
+
+
+New session at 03/12/2022 11:18 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 11:18User ray is logged on
+
+03/12/2022 11:18Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 11:18 Seeking PIC16F15214 to programme
+03/12/2022 11:18PIC16F15214 will be programmed
+03/12/2022 11:18 Started manual upload
+03/12/2022 11:18 Successful upload
+03/12/2022 11:18 Checking for chip removed
+03/12/2022 11:19 Auto upload turned on
+03/12/2022 11:19 Auto upload turned off
+03/12/2022 11:20Exited gracefully
+
+
+
+New session at 03/12/2022 11:32 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 11:32User ray is logged on
+
+03/12/2022 11:32Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 11:32 Seeking PIC16F15214 to programme
+03/12/2022 11:32PIC16F15214 will be programmed
+03/12/2022 11:32 Started manual upload
+03/12/2022 11:32 Successful upload
+03/12/2022 11:32 Checking for chip removed
+03/12/2022 11:32 Auto upload turned on
+03/12/2022 11:32 Auto upload turned off
+03/12/2022 11:32 Auto upload turned on
+03/12/2022 11:33Exited gracefully
+
+
+
+New session at 03/12/2022 11:33 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 11:33User ray is logged on
+
+03/12/2022 11:33Programmer: Microchip Technology Inc.PICkit 3with serial= BUR171726474
+03/12/2022 11:33 Seeking PIC16F15214 to programme
+03/12/2022 11:33PIC16F15214 will be programmed
+03/12/2022 11:33Exited gracefully
+
+
+
+New session at 03/12/2022 11:47 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 11:48User ray is logged on
+
+03/12/2022 11:48 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 11:48 Seeking PIC16F15214 to programme
+03/12/2022 11:48PIC16F15214 will be programmed
+03/12/2022 11:48 Auto upload turned on
+03/12/2022 11:48 Started auto upload
+03/12/2022 11:48 Auto upload turned off
+03/12/2022 11:48 Successful upload
+03/12/2022 11:48 Checking for chip removed
+03/12/2022 11:50Exited gracefully
+
+
+
+New session at 03/12/2022 11:51 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 11:51User ray is logged on
+
+03/12/2022 11:51 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 11:51 Seeking PIC16F15214 to programme
+03/12/2022 11:51PIC16F15214 will be programmed
+03/12/2022 12:35Exited gracefully
+
+
+
+New session at 03/12/2022 12:35 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 12:35User ray is logged on
+
+03/12/2022 12:35 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 12:35 Seeking PIC16F15214 to programme
+03/12/2022 12:35PIC16F15214 will be programmed
+03/12/2022 12:37Exited gracefully
+
+
+
+New session at 03/12/2022 12:37 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 12:37User ray is logged on
+
+03/12/2022 12:37 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 12:37 Seeking PIC16F15214 to programme
+03/12/2022 12:37PIC16F15214 will be programmed
+03/12/2022 12:38Exited gracefully
+
+
+
+New session at 03/12/2022 12:38 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 12:38User ray is logged on
+
+03/12/2022 12:38 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 12:38 Seeking PIC16F15214 to programme
+03/12/2022 12:38PIC16F15214 will be programmed
+03/12/2022 12:39Exited gracefully
+
+
+
+New session at 03/12/2022 12:39 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 12:39User ray is logged on
+
+03/12/2022 12:39 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 12:39 Seeking PIC16F15214 to programme
+03/12/2022 12:39PIC16F15214 will be programmed
+03/12/2022 12:40 Auto upload turned on
+03/12/2022 12:40 Auto upload turned off
+03/12/2022 12:40 Auto upload turned on
+03/12/2022 12:40 Started auto upload
+03/12/2022 12:40 Auto upload turned off
+03/12/2022 12:40 Auto upload turned on
+03/12/2022 12:40 Auto upload turned off
+03/12/2022 12:40 Successful upload
+03/12/2022 12:40 Checking for chip removed
+03/12/2022 12:45Exited gracefully
+
+
+
+New session at 03/12/2022 12:45 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 12:45User ray is logged on
+
+03/12/2022 12:45 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 12:45 Seeking PIC16F15214 to programme
+03/12/2022 12:45PIC16F15214 will be programmed
+03/12/2022 12:46Exited gracefully
+
+
+
+New session at 03/12/2022 12:47 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 12:47User ray is logged on
+
+03/12/2022 12:47 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 12:47 Seeking PIC16F15214 to programme
+03/12/2022 12:47PIC16F15214 will be programmed
+03/12/2022 12:48Exited gracefully
+
+
+
+New session at 03/12/2022 12:48 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 12:48User ray is logged on
+
+03/12/2022 12:48 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 12:48 Seeking PIC16F15214 to programme
+03/12/2022 12:48PIC16F15214 will be programmed
+03/12/2022 12:49Exited gracefully
+
+
+
+New session at 03/12/2022 12:50 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 12:50User ray is logged on
+
+03/12/2022 12:50 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 12:50 Seeking PIC16F15214 to programme
+03/12/2022 12:50PIC16F15214 will be programmed
+03/12/2022 12:53 Started manual upload
+03/12/2022 12:53 Successful upload
+03/12/2022 12:53 Checking for chip removed
+03/12/2022 14:51 Auto upload turned on
+03/12/2022 14:51 Auto upload turned off
+03/12/2022 15:00Exited gracefully
+
+
+
+New session at 03/12/2022 15:00 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 15:00User ray is logged on
+
+03/12/2022 15:01 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 15:01 Seeking PIC16F15214 to programme
+03/12/2022 15:03 Seeking PIC16F15214 to programme repeated 146 times
+03/12/2022 15:03Exited gracefully
+
+
+
+New session at 03/12/2022 15:04 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 15:04User ray is logged on
+
+03/12/2022 15:04 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 15:04 Seeking PIC16F15214 to programme
+03/12/2022 15:04 Seeking PIC16F15214 to programme repeated 34 times
+03/12/2022 15:04Exited gracefully
+
+
+
+New session at 03/12/2022 15:10 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 15:10User ray is logged on
+
+03/12/2022 15:10 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 15:10 Seeking PIC16F15214 to programme
+03/12/2022 15:10 Checking for chip removed
+03/12/2022 15:10 Seeking PIC16F15214 to programme
+03/12/2022 15:10 Checking for chip removed
+03/12/2022 15:10 Seeking PIC16F15214 to programme
+03/12/2022 15:10 Checking for chip removed
+03/12/2022 15:10 Seeking PIC16F15214 to programme
+03/12/2022 15:10 Checking for chip removed
+03/12/2022 15:10 Seeking PIC16F15214 to programme
+03/12/2022 15:10 Checking for chip removed
+03/12/2022 15:10 Seeking PIC16F15214 to programme
+03/12/2022 15:10 Checking for chip removed
+03/12/2022 15:10Exited gracefully
+
+
+
+New session at 03/12/2022 15:12 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 15:12User ray is logged on
+
+03/12/2022 15:12 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 15:12 Seeking PIC16F15214 to programme
+03/12/2022 15:12 Seeking PIC16F15214 to programme repeated 6 times
+03/12/2022 15:12Exited gracefully
+
+
+
+New session at 03/12/2022 16:28 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 16:28User ray is logged on
+
+03/12/2022 16:28 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 16:28 Seeking PIC16F15214 to programme
+03/12/2022 16:29 Seeking PIC16F15214 to programme repeated 23 times
+03/12/2022 16:29Exited gracefully
+
+
+
+New session at 03/12/2022 16:32 of picky_py PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 16:32User ray is logged on
+
+03/12/2022 16:32 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 16:32 Seeking PIC16F15214 to programme
+03/12/2022 16:32 Seeking PIC16F15214 to programme repeated 43 times
+03/12/2022 16:32Exited gracefully
+
+
+
+New session at 03/12/2022 16:33 of   Picky_py the PIC16F15214 Chip Programmer 1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 16:33User ray is logged on
+
+03/12/2022 16:33 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 16:33 Seeking PIC16F15214 to programme
+03/12/2022 16:35 Seeking PIC16F15214 to programme repeated 165 times
+03/12/2022 16:35Exited gracefully
+
+
+
+New session at 03/12/2022 16:40 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+User ray is logged on
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 16:40System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+03/12/2022 16:40PySimpleGui version:4.60.4
+03/12/2022 16:40User ray is logged on
+
+03/12/2022 16:40 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 16:40 Seeking PIC16F15214 to programme
+03/12/2022 16:40 Seeking PIC16F15214 to programme repeated 7 times
+03/12/2022 16:40Exited gracefully
+
+
+
+New session at 03/12/2022 17:26 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 17:26System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+03/12/2022 17:26PySimpleGui version:4.60.4
+03/12/2022 17:26User ray is logged on
+
+03/12/2022 17:26 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 17:26 Seeking PIC16F15214 to programme
+03/12/2022 17:26 Seeking PIC16F15214 to programme repeated 6 times
+03/12/2022 17:26PIC16F15214 will be programmed
+03/12/2022 17:26 Started manual upload
+03/12/2022 17:27 Successful upload
+03/12/2022 17:27 Checking for chip removed
+03/12/2022 17:28Exited gracefully
+
+
+
+New session at 03/12/2022 17:48 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 17:48System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+03/12/2022 17:48PySimpleGui version:4.60.4
+03/12/2022 17:48User ray is logged on
+
+
+
+
+New session at 03/12/2022 17:58 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 17:58System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+03/12/2022 17:58PySimpleGui version:4.60.4
+03/12/2022 17:58User ray is logged on
+
+
+
+
+New session at 03/12/2022 18:00 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 18:00System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+03/12/2022 18:00PySimpleGui version:4.60.4
+03/12/2022 18:00User ray is logged on
+
+03/12/2022 18:00 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 18:00 Seeking PIC16F15214 to programme
+03/12/2022 18:00 Seeking PIC16F15214 to programme repeated 8 times
+03/12/2022 18:00Exited gracefully
+
+
+
+New session at 03/12/2022 18:45 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 18:45System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+03/12/2022 18:45PySimpleGui version:4.60.4
+03/12/2022 18:45User ray is logged on
+
+03/12/2022 18:45 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 18:45 Auto upload turned on
+03/12/2022 18:45 Auto upload turned off
+03/12/2022 18:47 Auto upload turned on
+03/12/2022 18:47 Auto upload turned off
+03/12/2022 18:49Exited gracefully
+
+
+
+New session at 03/12/2022 19:00 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 19:00System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+03/12/2022 19:00PySimpleGui version:4.60.4
+03/12/2022 19:00User ray is logged on
+
+03/12/2022 19:00 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 19:00 Seeking PIC16F15214 to programme
+03/12/2022 19:00PIC16F15214 will be programmed
+03/12/2022 19:01 Started manual upload
+03/12/2022 19:01 Successful upload
+03/12/2022 19:01 Checking for chip removed
+03/12/2022 20:43 Checking for chip removed repeated 1 times
+03/12/2022 20:43Exited gracefully
+
+
+
+New session at 03/12/2022 20:45 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+03/12/2022 20:45System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+03/12/2022 20:45PySimpleGui version:4.60.4
+03/12/2022 20:45User ray is logged on
+
+03/12/2022 20:45 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+03/12/2022 20:45 Seeking PIC16F15214 to programme
+03/12/2022 20:45 Seeking PIC16F15214 to programme repeated 10 times
+03/12/2022 20:45Exited gracefully
+
+
+
+New session at 04/12/2022 06:54 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+04/12/2022 06:54System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 06:54PySimpleGui version:4.60.4
+04/12/2022 06:54User ray is logged on
+
+04/12/2022 06:54 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 06:54 Seeking PIC16F15214 to programme
+04/12/2022 06:55 Seeking PIC16F15214 to programme repeated 21 times
+04/12/2022 06:55 Auto upload turned on
+04/12/2022 06:55 Seeking PIC16F15214 to programme
+04/12/2022 06:55 Auto upload turned off
+04/12/2022 06:55 Seeking PIC16F15214 to programme
+04/12/2022 06:55 Seeking PIC16F15214 to programme repeated 4 times
+04/12/2022 06:55Exited gracefully
+
+
+
+New session at 04/12/2022 08:25 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+04/12/2022 08:25System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 08:25PySimpleGui version:4.60.4
+04/12/2022 08:25User ray is logged on
+
+04/12/2022 08:25 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 08:25 Seeking PIC16F15214 to programme
+04/12/2022 08:25 Seeking PIC16F15214 to programme repeated 8 times
+04/12/2022 08:25PIC16F15214 will be programmed
+04/12/2022 08:26 Started manual upload
+04/12/2022 08:26 Successful upload
+04/12/2022 08:26 Checking for chip removed
+04/12/2022 08:26 Checking for chip removed repeated 15 times
+04/12/2022 08:26Exited gracefully
+
+
+
+New session at 04/12/2022 08:26 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+04/12/2022 08:26System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 08:26PySimpleGui version:4.60.4
+04/12/2022 08:26User ray is logged on
+
+04/12/2022 08:26 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 08:26 Seeking PIC16F15214 to programme
+04/12/2022 08:26 Seeking PIC16F15214 to programme repeated 7 times
+04/12/2022 08:26PIC16F15214 will be programmed
+04/12/2022 08:26 Started manual upload
+04/12/2022 08:26 Successful upload
+04/12/2022 08:26 Checking for chip removed
+04/12/2022 08:27 Checking for chip removed repeated 2 times
+04/12/2022 08:27Chip removed
+04/12/2022 08:27 Seeking PIC16F15214 to programme
+04/12/2022 08:27 Seeking PIC16F15214 to programme repeated 10 times
+04/12/2022 08:27PIC16F15214 will be programmed
+04/12/2022 08:27 Started manual upload
+04/12/2022 08:27 Successful upload
+04/12/2022 08:27 Checking for chip removed
+04/12/2022 08:27 Checking for chip removed repeated 2 times
+04/12/2022 08:27 Auto upload turned on
+04/12/2022 08:27 Checking for chip removed
+04/12/2022 08:27 Checking for chip removed repeated 5 times
+04/12/2022 08:27Chip removed
+04/12/2022 08:27 Seeking PIC16F15214 to programme
+04/12/2022 08:27 Seeking PIC16F15214 to programme repeated 4 times
+04/12/2022 08:27PIC16F15214 will be programmed
+04/12/2022 08:27 Started auto upload
+04/12/2022 08:27 Successful upload
+04/12/2022 08:27 Checking for chip removed
+04/12/2022 08:27 Checking for chip removed repeated 2 times
+04/12/2022 08:27Chip removed
+04/12/2022 08:27 Seeking PIC16F15214 to programme
+04/12/2022 08:27 Seeking PIC16F15214 to programme repeated 3 times
+04/12/2022 08:27Exited gracefully
+
+
+
+New session at 04/12/2022 09:35 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+04/12/2022 09:35System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 09:35PySimpleGui version:4.60.4
+04/12/2022 09:35User ray is logged on
+
+04/12/2022 09:35 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 09:35 Seeking PIC16F15214 to programme
+04/12/2022 09:35 Seeking PIC16F15214 to programme repeated 14 times
+04/12/2022 09:35 Auto upload turned on
+04/12/2022 09:35 Seeking PIC16F15214 to programme
+04/12/2022 09:35 Seeking PIC16F15214 to programme repeated 3 times
+04/12/2022 09:35 Auto upload turned off
+04/12/2022 09:35 Seeking PIC16F15214 to programme
+04/12/2022 09:35 Seeking PIC16F15214 to programme repeated 20 times
+04/12/2022 09:35Exited gracefully
+
+
+
+New session at 04/12/2022 15:22 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+04/12/2022 15:22Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 15:22PySimpleGui version:4.60.4
+04/12/2022 15:22User ray is logged on
+
+04/12/2022 15:22 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 15:22 Seeking PIC16F15214 to programme
+04/12/2022 15:22PIC16F15214 will be programmed
+04/12/2022 15:23Exited gracefully
+
+
+
+New session at 04/12/2022 15:27 of json_data["picky_py_config"]["header"]["program_announce"] 1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+04/12/2022 15:27Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 15:27PySimpleGui version:4.60.4
+04/12/2022 15:27User ray is logged on
+
+04/12/2022 15:27 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 15:27 Seeking PIC16F15214 to programme
+04/12/2022 15:27PIC16F15214 will be programmed
+04/12/2022 15:28Exited gracefully
+
+
+
+New session at 04/12/2022 15:28 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+04/12/2022 15:28Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 15:28PySimpleGui version:4.60.4
+04/12/2022 15:28User ray is logged on
+
+04/12/2022 15:28 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 15:28 Seeking PIC16F15214 to programme
+04/12/2022 15:28PIC16F15214 will be programmed
+04/12/2022 15:29Exited gracefully
+
+
+
+New session at 04/12/2022 15:42 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+04/12/2022 15:42Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 15:42PySimpleGui version:4.60.4
+04/12/2022 15:42User ray is logged on
+
+04/12/2022 15:42 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 15:42 Seeking PIC16F15214 to programme
+04/12/2022 15:42PIC16F15214 will be programmed
+04/12/2022 15:47Exited gracefully
+
+
+
+New session at 04/12/2022 15:47 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+
+TCL version:8.6.10
+04/12/2022 15:47Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 15:47PySimpleGui version:4.60.4
+04/12/2022 15:47User ray is logged on
+
+04/12/2022 15:47 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 15:47 Seeking PIC16F15214 to programme
+04/12/2022 15:47PIC16F15214 will be programmed
+04/12/2022 16:06Exited gracefully
+
+
+
+New session at 04/12/2022 16:06 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+04/12/2022 16:06Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 16:06PySimpleGui version:4.60.4
+04/12/2022 16:06User ray is logged on
+
+04/12/2022 16:06 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 16:06 Seeking PIC16F15214 to programme
+04/12/2022 16:06PIC16F15214 will be programmed
+04/12/2022 16:06Exited gracefully
+
+
+
+New session at 04/12/2022 16:09 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+04/12/2022 16:09Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 16:09PySimpleGui version:4.60.4
+04/12/2022 16:09User ray is logged on
+
+04/12/2022 16:09 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 16:09 Seeking PIC16F15214 to programme
+04/12/2022 16:09PIC16F15214 will be programmed
+04/12/2022 16:20Exited gracefully
+
+
+
+New session at 04/12/2022 16:22 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+04/12/2022 16:22  Thanks to https://www.pysimplegui.org for the simple GUI framework
+04/12/2022 16:22Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 16:22PySimpleGui version:4.60.4
+04/12/2022 16:22User ray is logged on
+
+04/12/2022 16:22 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 16:22 Seeking PIC16F15214 to programme
+04/12/2022 16:22PIC16F15214 will be programmed
+04/12/2022 16:25Exited gracefully
+
+
+
+New session at 04/12/2022 16:26 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+04/12/2022 16:26  Thanks to https://www.pysimplegui.org for the simple GUI framework
+04/12/2022 16:26Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 16:26PySimpleGui version:4.60.4
+04/12/2022 16:26User ray is logged on
+
+04/12/2022 16:26 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 16:26 Seeking PIC16F15214 to programme
+04/12/2022 16:26PIC16F15214 will be programmed
+04/12/2022 16:26Exited gracefully
+
+
+
+New session at 04/12/2022 16:55 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+04/12/2022 16:55  Thanks to https://www.pysimplegui.org for the simple GUI framework
+04/12/2022 16:55Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 16:55PySimpleGui version:4.60.4
+04/12/2022 16:55User ray is logged on
+
+04/12/2022 16:55 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 16:55 Seeking PIC16F15214 to programme
+04/12/2022 16:56PIC16F15214 will be programmed
+04/12/2022 16:58Exited gracefully
+
+
+
+New session at 04/12/2022 17:00 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+04/12/2022 17:00  Thanks to https://www.pysimplegui.org for the simple GUI framework
+04/12/2022 17:00Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 17:00PySimpleGui version:4.60.4
+04/12/2022 17:00User ray is logged on
+
+04/12/2022 17:00 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 17:00 Seeking PIC16F15214 to programme
+04/12/2022 17:00timePIC16F15214 will be programmed
+04/12/2022 17:04Exited gracefully
+
+
+
+New session at 04/12/2022 17:04 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+04/12/2022 17:04  Thanks to https://www.pysimplegui.org for the simple GUI framework
+04/12/2022 17:04Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 17:04PySimpleGui version:4.60.4
+04/12/2022 17:04User ray is logged on
+
+04/12/2022 17:04 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 17:04 Seeking PIC16F15214 to programme
+04/12/2022 17:04\$time PIC16F15214 will be programmed
+04/12/2022 17:05Exited gracefully
+
+
+
+New session at 04/12/2022 17:06 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+04/12/2022 17:06  Thanks to https://www.pysimplegui.org for the simple GUI framework
+04/12/2022 17:06Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+04/12/2022 17:06PySimpleGui version:4.60.4
+04/12/2022 17:06User ray is logged on
+
+04/12/2022 17:06 Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 17:06 Seeking PIC16F15214 to programme
+04/12/2022 17:06$time PIC16F15214 will be programmed
+04/12/2022 17:06Exited gracefully
+
+
+
+New session at 04/12/2022 17:14 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 04/12/2022 17:14 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework
+Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+PySimpleGui version:4.60.4
+User ray is logged on
+
+ Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+ Seeking PIC16F15214 to programme
+04/12/2022 17:14 PIC16F15214 will be programmed
+ Auto upload turned on
+ Started auto upload
+ Successful upload
+ Auto upload turned off
+Exited gracefully
+
+
+
+New session at 04/12/2022 17:22 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework
+Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+PySimpleGui version:4.60.4
+User ray is logged on
+
+ Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 17:22 Seeking PIC16F15214 to programme
+04/12/2022 17:23 PIC16F15214 will be programmed
+Exited gracefully
+
+
+
+New session at 04/12/2022 17:27 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework
+Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+PySimpleGui version:4.60.4
+User ray is logged on
+
+ Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 17:27 Seeking PIC16F15214 to programme
+04/12/2022 17:27 PIC16F15214 will be programmed
+04/12/2022 17:28 Exited gracefully
+
+
+
+New session at 04/12/2022 17:38 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+04/12/2022 17:38 User ray is logged on
+
+ Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 17:38 Seeking PIC16F15214 to programme
+04/12/2022 17:38 PIC16F15214 will be programmed
+ Auto upload turned on
+04/12/2022 17:39 Started auto upload
+04/12/2022 17:39 {msg}
+04/12/2022 17:39 Exited gracefully
+
+
+
+New session at 04/12/2022 17:50 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+04/12/2022 17:50 User ray is logged on
+
+ Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 17:50 Seeking PIC16F15214 to programme
+04/12/2022 17:50 PIC16F15214 will be programmed
+ Started manual upload
+04/12/2022 17:50 Successful upload
+04/12/2022 17:51 Exited gracefully
+
+
+
+New session at 04/12/2022 18:07 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+04/12/2022 18:07 User ray is logged on
+
+ Programmer: Microchip Technology Inc.PICkit 3 with serial= BUR171726474
+04/12/2022 18:07 Seeking PIC16F15214 to programme
+04/12/2022 18:07 PIC16F15214 will be programmed
+ Auto upload turned on
+04/12/2022 18:10 Started auto upload
+04/12/2022 18:10 Successful upload
+ Auto upload turned off
+04/12/2022 18:10 Exited gracefully
+
+
+
+New session at 04/12/2022 18:10 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+04/12/2022 18:10 User ray is logged on
+
+ Programmer: Microchip Technology Inc. PICkit 3 with serial= BUR171726474
+04/12/2022 18:10 Seeking PIC16F15214 to programme
+04/12/2022 18:10 PIC16F15214 will be programmed
+04/12/2022 18:10 Exited gracefully
+
+
+
+New session at 05/12/2022 13:00 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-132-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+05/12/2022 13:00 User ray is logged on
+
+ Programmer: Microchip Technology Inc. PICkit 3 with serial= BUR171726474
+05/12/2022 13:00 Seeking PIC16F15214 to programme
+05/12/2022 13:00 PIC16F15214 will be programmed
+ Started manual upload
+05/12/2022 13:01 Successful upload
+05/12/2022 13:01 Seeking PIC16F15214 to programme
+05/12/2022 13:02 Seeking PIC16F15214 to programme repeated 9 times
+05/12/2022 13:02 PIC16F15214 will be programmed
+ Auto upload turned on
+05/12/2022 13:02 Started auto upload
+05/12/2022 13:02 Successful upload
+05/12/2022 13:02 Seeking PIC16F15214 to programme
+05/12/2022 13:02 Seeking PIC16F15214 to programme repeated 7 times
+05/12/2022 13:02 PIC16F15214 will be programmed
+05/12/2022 13:02 Started auto upload
+05/12/2022 13:02 Successful upload
+05/12/2022 13:02 Seeking PIC16F15214 to programme
+05/12/2022 13:02 Seeking PIC16F15214 to programme repeated 11 times
+05/12/2022 13:02 Exited gracefully
+
+
+
+New session at 16/02/2023 09:38 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 09:38 User ray is logged on
+
+16/02/2023 09:39 Exited gracefully
+
+
+
+New session at 16/02/2023 11:59 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 11:59 User ray is logged on
+
+16/02/2023 12:47 Exited gracefully
+
+
+
+New session at 16/02/2023 13:29 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 13:29 User ray is logged on
+
+16/02/2023 13:30 Exited gracefully
+
+
+
+New session at 16/02/2023 13:33 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 13:33 User ray is logged on
+
+16/02/2023 14:31 Exited gracefully
+
+
+
+New session at 16/02/2023 14:31 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 14:31 User ray is logged on
+
+16/02/2023 14:31 Exited gracefully
+
+
+
+New session at 16/02/2023 14:32 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 14:32 User ray is logged on
+
+16/02/2023 14:33 Exited gracefully
+
+
+
+New session at 16/02/2023 14:34 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 14:34 User ray is logged on
+
+16/02/2023 14:35 Exited gracefully
+
+
+
+New session at 16/02/2023 14:35 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 14:38 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 14:42 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 14:42 User ray is logged on
+
+16/02/2023 14:43 Exited gracefully
+
+
+
+New session at 16/02/2023 14:43 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 14:56 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 15:00 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 15:07 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 15:07 User ray is logged on
+
+16/02/2023 15:07 Exited gracefully
+
+
+
+New session at 16/02/2023 15:08 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 15:08 User ray is logged on
+
+16/02/2023 15:08 Exited gracefully
+
+
+
+New session at 16/02/2023 15:54 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 15:55 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 15:55 User ray is logged on
+
+16/02/2023 15:55 Exited gracefully
+
+
+
+New session at 16/02/2023 15:56 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 15:56 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+16/02/2023 15:57 Exited gracefully
+
+
+
+New session at 16/02/2023 16:07 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 16:07 User ray is logged on
+
+16/02/2023 17:19 Exited gracefully
+
+
+
+New session at 16/02/2023 17:19 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 17:20 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 17:27 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 17:30 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 17:31 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 16/02/2023 17:35 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 17:35 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+16/02/2023 18:19 Exited gracefully
+
+
+
+New session at 16/02/2023 19:12 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 19:12 User ray is logged on
+
+16/02/2023 20:16 Exited gracefully
+
+
+
+New session at 16/02/2023 20:20 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+16/02/2023 20:20 User ray is logged on
+
+17/02/2023 13:24 Exited gracefully
+
+
+
+New session at 17/02/2023 17:18 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+17/02/2023 17:18 User ray is logged on
+
+17/02/2023 18:49 Exited gracefully
+
+
+
+New session at 18/02/2023 19:42 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+18/02/2023 19:42 User ray is logged on
+
+18/02/2023 19:46 Exited gracefully
+
+
+
+New session at 18/02/2023 19:46 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+18/02/2023 19:46 User ray is logged on
+
+18/02/2023 19:48 Exited gracefully
+
+
+
+New session at 18/02/2023 19:48 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+18/02/2023 19:48 User ray is logged on
+
+18/02/2023 19:48 Exited gracefully
+
+
+
+New session at 18/02/2023 19:54 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+18/02/2023 19:54 User ray is logged on
+
+19/02/2023 10:02 Exited gracefully
+
+
+
+New session at 19/02/2023 10:05 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:05 User ray is logged on
+
+19/02/2023 10:05 Exited gracefully
+
+
+
+New session at 19/02/2023 10:08 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:08 User ray is logged on
+
+19/02/2023 10:08 Exited gracefully
+
+
+
+New session at 19/02/2023 10:10 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:10 User ray is logged on
+
+19/02/2023 10:10 Exited gracefully
+
+
+
+New session at 19/02/2023 10:19 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 19/02/2023 10:20 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:20 User ray is logged on
+
+19/02/2023 10:21 Exited gracefully
+
+
+
+New session at 19/02/2023 10:22 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:22 User ray is logged on
+
+19/02/2023 10:24 Exited gracefully
+
+
+
+New session at 19/02/2023 10:24 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 19/02/2023 10:25 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:25 User ray is logged on
+
+19/02/2023 10:34 Exited gracefully
+
+
+
+New session at 19/02/2023 10:34 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:34 User ray is logged on
+
+19/02/2023 10:34 Exited gracefully
+
+
+
+New session at 19/02/2023 10:42 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:42 User ray is logged on
+
+19/02/2023 10:43 Exited gracefully
+
+
+
+New session at 19/02/2023 10:43 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:43 User ray is logged on
+
+19/02/2023 10:43 Exited gracefully
+
+
+
+New session at 19/02/2023 10:48 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 10:48 User ray is logged on
+
+19/02/2023 15:04 Exited gracefully
+
+
+
+New session at 19/02/2023 15:08 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 15:08 User ray is logged on
+
+19/02/2023 15:09 Exited gracefully
+
+
+
+New session at 19/02/2023 15:18 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 15:18 User ray is logged on
+
+19/02/2023 15:18 Exited gracefully
+
+
+
+New session at 19/02/2023 15:58 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 15:58 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+19/02/2023 15:59 Exited gracefully
+
+
+
+New session at 19/02/2023 16:00 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 16:00 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+ Auto upload turned on
+ Auto upload turned off
+ Auto upload turned on
+19/02/2023 16:03 Exited gracefully
+
+
+
+New session at 19/02/2023 16:03 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 16:03 User ray is logged on
+
+19/02/2023 16:04 Exited gracefully
+
+
+
+New session at 19/02/2023 16:09 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 16:09 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+19/02/2023 16:11 Exited gracefully
+
+
+
+New session at 19/02/2023 16:11 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 16:11 User ray is logged on
+
+19/02/2023 16:13 Exited gracefully
+
+
+
+New session at 19/02/2023 16:13 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 16:13 User ray is logged on
+
+19/02/2023 16:14 Exited gracefully
+
+
+
+New session at 19/02/2023 16:14 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 16:14 User ray is logged on
+
+19/02/2023 16:23 Exited gracefully
+
+
+
+New session at 19/02/2023 16:23 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+19/02/2023 16:23 User ray is logged on
+
+19/02/2023 16:25 Exited gracefully
+
+
+
+New session at 20/02/2023 17:25 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 17:25 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+20/02/2023 17:26 Exited gracefully
+
+
+
+New session at 20/02/2023 17:32 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 17:32 User ray is logged on
+
+20/02/2023 17:32 Exited gracefully
+
+
+
+New session at 20/02/2023 17:32 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 17:32 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+ Auto upload turned on
+ Auto upload turned off
+20/02/2023 17:33 Exited gracefully
+
+
+
+New session at 20/02/2023 17:39 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+
+
+
+New session at 20/02/2023 17:40 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 17:40 User ray is logged on
+
+20/02/2023 17:41 Exited gracefully
+
+
+
+New session at 20/02/2023 17:41 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 17:41 User ray is logged on
+
+
+
+
+New session at 20/02/2023 17:48 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 17:48 User ray is logged on
+
+20/02/2023 17:48 Exited gracefully
+
+
+
+New session at 20/02/2023 17:49 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 17:49 User ray is logged on
+
+20/02/2023 17:49 Exited gracefully
+
+
+
+New session at 20/02/2023 17:51 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 17:51 User ray is logged on
+
+20/02/2023 18:02 Changed upload file to /home/ray/picky_py/uploads/pic16F15214_release_1_0.X.production.hex
+20/02/2023 18:10 Exited gracefully
+
+
+
+New session at 20/02/2023 18:11 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 18:11 User ray is logged on
+
+20/02/2023 18:12 Changed upload file to /home/ray/picky_py/uploads/pic16F15214_release_1_0.X.production.hex
+20/02/2023 18:17 Exited gracefully
+
+
+
+New session at 20/02/2023 18:17 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 18:17 User ray is logged on
+
+20/02/2023 18:17 Exited gracefully
+
+
+
+New session at 20/02/2023 18:21 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 18:21 User ray is logged on
+
+ Auto upload turned on
+20/02/2023 18:27 Exited gracefully
+
+
+
+New session at 20/02/2023 18:31 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 18:31 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+ Auto upload turned on
+20/02/2023 18:34 Exited gracefully
+
+
+
+New session at 20/02/2023 18:34 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 18:34 User ray is logged on
+
+ Auto upload turned on
+20/02/2023 18:35 Exited gracefully
+
+
+
+New session at 20/02/2023 18:35 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 18:35 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+ Auto upload turned on
+ Auto upload turned off
+ Auto upload turned on
+ Auto upload turned off
+ Auto upload turned on
+ Auto upload turned off
+20/02/2023 18:53 Exited gracefully
+
+
+
+New session at 20/02/2023 18:54 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+20/02/2023 18:54 User ray is logged on
+
+ Auto upload turned on
+ Auto upload turned off
+20/02/2023 18:54 Changed upload file to /home/ray/picky_py/uploads/pic16F15214_release_1_0.X.production.hex
+20/02/2023 18:57 Exited gracefully
+
+
+
+New session at 22/02/2023 12:16 of   Picky_py the PIC16F15214 Chip Programmer  1.1
+System:Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+Python:3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+PySimpleGui version:4.60.4 is used for the GUI. See 
+PySimpleGui source:<module 'PySimpleGUI' from '/home/ray/.local/lib/python3.8/site-packages/PySimpleGUI/__init__.py'>
+TCL version:8.6.10
+  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: PySimpleGui version:4.60.4
+  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in
+  Used to identify Pickit plugged into USB.
+  Python version = Python: 3.8.10 (default, Nov 14 2022, 12:59:47) 
+[GCC 9.4.0]
+Operating System: Linux-5.4.0-139-generic-x86_64-with-glibc2.29
+TCL version:8.6.10
+22/02/2023 12:16 User ray is logged on
+
+22/02/2023 12:17 Exited gracefully

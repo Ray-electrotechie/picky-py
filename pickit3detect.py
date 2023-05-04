@@ -6,7 +6,7 @@
 #Still a bit heavyweight, but OK for our purposes.
 #
 # Which normally displays your USB devices in reasonable form.
-# Origial, with many thanks to:
+# Original, with many thanks to:
 # Copyright (c) 2009 Kurt Garloff <garloff@suse.de>
 # Copyright (c) 2013,2018 Kurt Garloff <kurt@garloff.de>
 #
