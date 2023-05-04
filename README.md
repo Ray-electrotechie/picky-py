@@ -20,4 +20,6 @@ A comprehensive log is written during the chip programming. It is not rotated ne
  In addition to pk2cmd which is used unchanged from the supplied appimage, we use a much-butchered version of [lsusb](https://github.com/gregkh/usbutils/blob/master/lsusb.py.in) to detect the existance of the pickit 3 programmer. This is renamed Pickit3detect.py.
  
 # The program
+
+The GUI of Picky-py is shown below. The right hand side is a log. Simply reduce the size of the window if you don't want to see it. All the action is on the left hand side. The top button allows selection between .hex files in the ./uploads directory. If there is only one .hex file in there, that is chosen automatically. The second button down is used, if in manual mode and a chip is present, to push to program the chip. If there is no PIC it will announce what the program is doing to find one. Below that is a selector button which puts the program in manual or auto mode. In manual, the user has to press a button to program the chip. In automatic, as soon as the computer detects a chip, it will program it. The latter is the fastest means of programming but the chip must be held stable on the pogo pins or the programming will fail. The final window is an announcement window only. Exit exits the program.
 ![The GUI of Picky-py](picky_py.png)
