@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # NAME: Picky_py
-# VERSION: 1.1_04
+# VERSION: 1.1.05
 # LICENSE: SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only
 # DESCRIPTION:
 #   picky_py - This program has a single goal: to make repetive uploading to the
@@ -23,9 +23,11 @@
 #  on time ticks. The state machine ticks at roughly half second intervals.
 #  The pickit hardware is driven by the command line interface of an external program named
 #  "Pickit minus" which is invoked in a separate process.
+#  The standard output and standard error use files. The standard out file is parsed as necessary.
 # ENVIRONMENT:
 #  Written in Python 3. 
 #The program imports a picky_py.json file from DEF_main_directory in order to load parameters.
+#Some, not all, strings are adjustable by means of the JSON file.
 #Only one programmer per PC is permitted at this time.
 MICROCHIP_DEVICE_ID = 30E6
 DEVICE_REVISION  = 1002
@@ -33,7 +35,6 @@ DEVICE_NAME = 'PIC16F15214'
 from pickit3detect import *
 import importlib
 import logging
-#from dataclasses import dataclass
 from enum import Enum
 last_resort_log=logging.getLogger() #This puts out info on the console
 
@@ -56,12 +57,9 @@ subprocess = import_module('subprocess')
 shlex = import_module('shlex')
 glob= import_module('glob')
 sg= import_module('PySimpleGUI')
-textwrap= import_module('textwrap')
 os= import_module('os')
 getpass= import_module('getpass')
 runningon= import_module('platform')
-grp= import_module('grp')
-#operator= import_module('operator')
 time=import_module('time')
 pathlib=import_module('pathlib')
 cjson=import_module('commentjson') # commentjson permits end-of-line comments using // or hash.
@@ -99,15 +97,12 @@ user_home_dir = os.path.expanduser('~') #keeping stuff in the users home directo
 main_directory_path = user_home_dir+DEF_main_directory
 user_log_file = main_directory_path+DEF_log_file_name #log file in main directory
 result_file_path = main_directory_path+DEF_result_file
-
 error_file_path = main_directory_path+DEF_error_file
 JSON_file_path = main_directory_path + DEF_JSON_filename
 upload_path = main_directory_path+DEF_hex_file_dir
 
 
 # Next load the parameters from the JSON file.
-#with open(JSON_file_path) as f:
-#  json_data = cjson.commentjson.load(f)
   
 class config:
     def __init__(self, jsonfile):
@@ -115,8 +110,8 @@ class config:
            self.json_data = cjson.commentjson.load(f)
     def get(self,configkey):
         return self.json_data[configkey] if configkey in self.json_data else configkey + ' is missing'
+# Create an instance of the class config from the JSON file.
 con =config(JSON_file_path)
-#print(con.get('right_width_in_chars'))
 right_col_width_chars = con.get('right_width_in_chars')
 left_col_width_chars = con.get('left_width_in_chars')
 announce_prog = f'{con.get("program_announce")} {DEF_version}'
@@ -128,13 +123,15 @@ System_info = f'Operating System: {runningon.platform()}'
 PySimpleGui_source = f'PySimpleGui source:{sg}'
 PySimpleGui_version = f'PySimpleGui version:{sg.ver}'
 TCL_version =f'TCL version:{sg.tclversion_detailed}'
-exit_requested = False #set to true if the user presses the exit key.
+exit_requested = False #set this to true when the user presses the exit key.
 #program exit is deferred until any uploading is finished to avoid screwing a chip.
 
 #The program uses "pk2cmd minus" as the command line control of the pickit 3.
 #It calls it from an Appimage in the main directory path
 #The following command is to get the details of the chip connected.
-pk2cmd_what_chip = main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -I'
+pk2cmd_what_chip = f'{main_directory_path}/pk2cmd-x86_64.AppImage  -P{DEVICE_NAME} -I'
+#The following command will load the correct microcode and report the versions.
+pk2cmd_get_info = f'{main_directory_path}/pk2cmd-x86_64.AppImage  -?V'
 # for pk2cmd_program_chip see closer to use - the filename varies.
 try:
 	picky_py_logger = open(user_log_file,'+a')
@@ -210,7 +207,7 @@ def log_event(event_string):
         skipped_count += 1
 #programmer_command must only be called either the first time through the program OR after
 #  test_command_fini has reported that the command is finished.
-#Should really be a class.
+#Should really be a class with an instantiation of one.
 def programmer_command(command):
     global file_of_results,file_of_errors,process_state,statewindow
     ##spawn process.
@@ -219,7 +216,6 @@ def programmer_command(command):
     #command_id = 'main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -I'
     # main_directory_path+'/pk2cmd-x86_64.AppImage  -PPIC16F15214 -M -F'+upload_path+'/pic16F15214_release_1_0.X.production.hex
     #command = 'nrfutil dfu usb-serial -pkg '+chosen_hex_file+' -p '+port_to_program.device+' -b 115200'
-    #print('command=',command)
     try:
         process_state = subprocess.Popen(
             shlex.split(command), shell=False, stdout=file_of_results, stderr=file_of_errors)
@@ -228,7 +224,7 @@ def programmer_command(command):
         exit('unable to spawn subprocess')
 
 
-def test_command_fini(event_string):
+def test_command_fini():
     global file_of_results,file_of_errors,process_state
     success = True
     finished = process_state.poll() is not None
@@ -287,6 +283,12 @@ file_ready_colour = con.get('file_ready_colour')
 file_none_colour  = con.get('file_none_colour')
 right_column_font = con.get('right_font')
 right_column_header_text = con.get('right_header_text')
+request_chip = con.get('request_chip')
+getting_info = con.get('getting_info')
+pk2cmd_sw_version = con.get('pk2cmd_sw_version')
+pic_device_file = con.get('pic_device_file')
+pickit_firmware_version = con.get('pickit_firmware_version')
+
 if len(upload_files) == 1:
     #there is only one choice so use it.
     chosen_hex_file = upload_files[0]
@@ -322,7 +324,7 @@ layout = [sg.vtop(
          ]
 
 # Display the window and get values
-window = sg.Window(announce_prog, layout = layout, resizable = True, margins=(0,0), element_padding=(0,0),finalize=True)
+window = sg.Window(announce_prog, layout = layout, resizable = True, margins=(0,0), element_padding=(0,0),enable_close_attempted_event=True, finalize=True)
 
 for key in ('-FILE-', '-ACTION-', '-AUTO-', '-STATE-','-E-'):
     window[key].expand(expand_x=True)
@@ -336,10 +338,9 @@ log_event(f'  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.
 log_event(f'  Python version = {Python_version}')
 log_event(System_info)
 log_event(f'{TCL_version}')
-log_event(f'$time User {current_user} is logged on\n')
+log_event(f'{time.strftime("%d/%m/%Y %H:%M")} User {current_user} is logged on')
 
-
-
+#The interactions between the gui and the hardware are driven by a simple state machine.
 #The following class defines an ennumerated type, not available directly in the
 #version of Python used during development. The use of strings to represent states
 #was dropped in favour of the Enum class.
@@ -348,10 +349,14 @@ class pro_st8(Enum):
     pickit_missing = 1     #the Pickit programmer has not yet been found
     pickit_inuse = 2       #A chip is in the process of being programmed
     awaiting_no_chip = 3   #The programming has finished, next must see no chip to prove removal.
-    pickit_available = 4   #The pickit has been detected but is not in use.
-    pic16_available = 5    #The chip has been detected in the pickit.
-    awaiting_good_chip = 6 #A test is underway to see if there is a chip present
-    pickit_awaiting_off =7 #A test is underway to see if there is NO chip present.
+    pickit_there_awaiting_response = 4 #There is a Pickit. Sent verify, awaiting response.
+    pickit_available = 5   #The pickit has been detected but is not in use.
+    pic16_available = 6    #The chip has been detected in the pickit.
+    awaiting_good_chip = 7 #A test is underway to see if there is a chip present
+    pickit_awaiting_off =8 #A test is underway to see if there is NO chip present.
+#Note: the reason for the last state is that we have no means of knowing which chip is actually present.
+#AFAIK it is not possible to read the chip identifier to determine which chip is in the programming device.
+#Thus, we program the chip, then wait to see the chip removed, then program the next. Such is life.
     
 
 class prog_state:
@@ -385,6 +390,9 @@ while True:
     missed_event = True
     #The following line provides the half second tick OR instant action if the user presses an enabled button.
     event, values = window.read(timeout = 500,timeout_key = "-TIMEOUT-",close = False)
+    if event == sg.WINDOW_CLOSE_ATTEMPTED_EVENT :
+        exit_requested = True
+        missed_event = False
     if event == '-ACTION-' and st8_of_prog.state_now_is(pro_st8.pic16_available) :
         if not auto_upload : ##should not be an action event anyway if auto is set.
             window['-ACTION-'].update('uploading to chip',disabled=True,button_color='white on black')
@@ -434,7 +442,7 @@ while True:
             statewindow.message('Please remove the chip',False,True)
             st8_of_prog.change_to(pro_st8.awaiting_no_chip) #means that request made, awaiting results.
         elif st8_of_prog.state_now_is(pro_st8.awaiting_no_chip):
-            proc_terminated = test_command_fini('')
+            proc_terminated = test_command_fini()
             if proc_terminated[0]:  #The command has finished, whether success or not.
                 if parse_file_regex(result_file_path, regex)["Device Name"] == '<no device>':
                     #then the user has removed the programmed chip.
@@ -447,10 +455,10 @@ while True:
             #then check for correct chip available
             programmer_command(pk2cmd_what_chip)
             log_event(f'$time Seeking {DEVICE_NAME} to programme')
-            statewindow.message('Plug chip in',False,True)
+            statewindow.message(request_chip,False,True)
             st8_of_prog.change_to(pro_st8.awaiting_good_chip) #means that request has been made, results to check
         elif st8_of_prog.state_now_is(pro_st8.awaiting_good_chip):
-            proc_terminated = test_command_fini('')
+            proc_terminated = test_command_fini()
             if proc_terminated[0]:
                 if parse_file_regex(result_file_path, regex)["Device Name"] == DEVICE_NAME :
                     st8_of_prog.change_to(pro_st8.pic16_available)
@@ -469,14 +477,30 @@ while True:
             if len(pickits) == 1:
                 #then there is a single Pickit installed. Record the info and set the state.
                 current_pickit = pickits[0]
-                st8_of_prog.change_to(pro_st8.pickit_available)
-                window['-ACTION-'].update(text= 'Pickit 3 found,\nsearching for chip')
+                window['-ACTION-'].update(text= 'Pickit 3 found,\nchecking code versions')
+                programmer_command(pk2cmd_get_info)
+                st8_of_prog.change_to(pro_st8.pickit_there_awaiting_response)
                 statewindow.message(f' {current_pickit.product}\ndetected, serial=\n{current_pickit.serial}\n',True,False)
                 log_event(f' Programmer: {current_pickit.name} {current_pickit.product} with serial= {current_pickit.serial}')
             else:
                 statewindow.message('More than one\nprogrammer detected\nonly 1 permitted',True,False)
                 for programmer in pickits:
-                    log_event(' Programmer: '+programmer.name+programmer.product+' with serial= '+programmer.serial)
+                    log_event(f'Programmer: {programmer.name}{programmer.product} with serial= {programmer.serial}')
+
+        elif st8_of_prog.state_now_is(pro_st8.pickit_there_awaiting_response):
+            proc_terminated = test_command_fini()
+            if proc_terminated[0]: #then the remote process has completed.
+                if proc_terminated[1]: #then it completed successfully.
+                    versions = parse_file_regex(result_file_path, regex_version)
+                    log_event(f'{pk2cmd_sw_version} {versions["Executable Version"]}')
+                    log_event(f'{pic_device_file} {versions["Device File Version"]}')
+                    log_event(f'{pickit_firmware_version} {versions["OS Firmware Version"]}')        
+                    st8_of_prog.change_to(pro_st8.pickit_available)
+                    window['-ACTION-'].update(text= 'Pickit 3 found,\nsearching for chip')
+                else:
+                    log_event('PK2cmd failed to respond to version request')
+                    st8_of_prog.change_to(pro_st8.pickit_available) #Not found a device so go and test again
+            #else do nothing, just wait for process to complete.
         missed_event = False
         # next line removes timed out messages.
         statewindow.check(st8_of_prog.state_now_is_not(pro_st8.pic16_available) and st8_of_prog.state_now_is_not(pro_st8.pickit_inuse)) #cancel if not awaiting chip plugin and not uploading
@@ -488,7 +512,7 @@ while True:
             statewindow.message('Uploading,\ndo not unplug chip',True,False)
             st8_of_prog.change_to(pro_st8.pickit_inuse)
         elif st8_of_prog.state_now_is(pro_st8.pickit_inuse): #Means the command to program has been sent, but perhaps not yet completed
-            results = test_command_fini(' ')
+            results = test_command_fini()
             if results[0]: #The command has completed, maybe success of failed. Change state to awaiting chip change
                 st8_of_prog.change_to(pro_st8.pickit_awaiting_off)
                 window['-ACTION-'].update('awaiting chip\nremoval',button_color='white on orange',disabled=True)

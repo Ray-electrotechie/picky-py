@@ -32,5 +32,10 @@
     "right_header_text" : "Below a record of activity, also in the log",
     "right_font" : [ "Yrsa",20,"bold"],
     "right_width_in_chars" : 80,
-    "right_number_of_lines" : 16
+    "right_number_of_lines" : 16,
+    "request_chip" : "Insert PCB to program",
+    "getting_info" : "Getting Pickit info",
+    "pk2cmd_sw_version" : "PK2cmd minus, command line software version = ",
+    "pic_device_file" : "Version of file defining Microchip devices = ",
+    "pickit_firmware_version" : "Firmware version in Pickit = "
 }
