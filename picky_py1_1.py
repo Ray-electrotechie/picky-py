@@ -297,7 +297,7 @@ if len(upload_files) == 1:
 else: 
     browse_button_text = announce_no_file
     browse_button_color = file_none_colour
-    chosen_hex_file = "not yet chosen"
+    chosen_hex_file = None
 
 # Column layout  size=(left_col_width_chars,auto_button_height)
 layout = [sg.vtop(
@@ -379,7 +379,7 @@ st8_of_prog = prog_state(pro_st8.pickit_missing,pro_st8.pickit_missing) #st8 == 
 #
 #Define the command outside of the main loop, just to avoid constantly re-creating it.
 # Should the user change the file name, it will be re-generated correctly in that event handler.
-pk2cmd_program_chip = main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -M -F'+chosen_hex_file
+
 
 #This is the infinite loop where all the work is done.
 while True:
@@ -396,6 +396,7 @@ while True:
     if event == '-ACTION-' and st8_of_prog.state_now_is(pro_st8.pic16_available) :
         if not auto_upload : ##should not be an action event anyway if auto is set.
             window['-ACTION-'].update('uploading to chip',disabled=True,button_color='white on black')
+            pk2cmd_program_chip = main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -M -F'+chosen_hex_file
             programmer_command(pk2cmd_program_chip) #start uploading process here.
             log_event(' Started manual upload')
             window['-FILE-'].update(disabled = True)
@@ -404,7 +405,7 @@ while True:
         missed_event = False
     if event == '-AUTO-':
         #do not permit auto to be turned on if there is no file chosen.
-        if chosen_hex_file == None and not auto_upload :
+        if chosen_hex_file is None and not auto_upload :
             statewindow.message('auto is disabled\nfile must be chosen\nfirst',True,False)
             log_event(' Auto upload refused - no file yet chosen')
         else:
@@ -428,10 +429,10 @@ while True:
     if event == '-FILE-': #User has pressed the button to change the hex file to use as the program.
         temp_file = values['-FILE-']
         if temp_file: #then there is a file string returned by the user selection.
+            statewindow.message('',False,False)
             if temp_file != chosen_hex_file: #then it is different to the current file
                 log_event(f'$time Changed upload file to {temp_file}')
-                chosen_hex_file = temp_file # Next reconstruct the "program the chip" command line.
-                pk2cmd_program_chip = main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -M -F'+chosen_hex_file # replace command
+                chosen_hex_file = temp_file
                 window['-FILE-'].update(announce_file.replace('***',os.path.basename(chosen_hex_file)), button_color = 'white on green')
                 if st8_of_prog.state_now_is(pro_st8.pic16_available): #The chip is available, let the user program it.
                     window['-ACTION-'].update(disabled=False)
@@ -441,31 +442,35 @@ while True:
             programmer_command(pk2cmd_what_chip) # Send the command to get the chip info. This time hoping for <no device>
             statewindow.message('Please remove the chip',False,True)
             st8_of_prog.change_to(pro_st8.awaiting_no_chip) #means that request made, awaiting results.
-        elif st8_of_prog.state_now_is(pro_st8.awaiting_no_chip):
+        if st8_of_prog.state_now_is(pro_st8.awaiting_no_chip):
             proc_terminated = test_command_fini()
             if proc_terminated[0]:  #The command has finished, whether success or not.
                 if parse_file_regex(result_file_path, regex)["Device Name"] == '<no device>':
                     #then the user has removed the programmed chip.
                     st8_of_prog.change_to(pro_st8.pickit_available) # but a chip isn't
                     statewindow.message('',False,False)
+                    window['-ACTION-'].update('awaiting next chip',button_color='white on orange',disabled=True)
                 else:
                     st8_of_prog.change_to(pro_st8.pickit_awaiting_off) #if command is finished and NOT no device, go command again.
             #else if command not terminated, just await next tick with the same state.
-        elif st8_of_prog.state_now_is(pro_st8.pickit_available):
+        if st8_of_prog.state_now_is(pro_st8.pickit_available):
             #then check for correct chip available
             programmer_command(pk2cmd_what_chip)
             log_event(f'$time Seeking {DEVICE_NAME} to programme')
             statewindow.message(request_chip,False,True)
             st8_of_prog.change_to(pro_st8.awaiting_good_chip) #means that request has been made, results to check
-        elif st8_of_prog.state_now_is(pro_st8.awaiting_good_chip):
+        if st8_of_prog.state_now_is(pro_st8.awaiting_good_chip):
             proc_terminated = test_command_fini()
             if proc_terminated[0]:
                 if parse_file_regex(result_file_path, regex)["Device Name"] == DEVICE_NAME :
                     st8_of_prog.change_to(pro_st8.pic16_available)
+                    
+                    
+                    
                     window['-ACTION-'].update(text= DEVICE_NAME+'\nwill be programmed'
                        if auto_upload else "Push here to upload\n to "+DEVICE_NAME, button_color=con.get("action_disabled") if auto_upload else con.get("action_enabled"),
-                       disabled=True if auto_upload or not chosen_hex_file else False)
-                    statewindow.message('',False,False)
+                       disabled=True if auto_upload or chosen_hex_file is None else False)
+                    statewindow.message(con.get("action_button_no_file") if chosen_hex_file is None else '' ,False,False)
                     log_event(f'$time {DEVICE_NAME} will be programmed')
                 else:
                     st8_of_prog.change_to(pro_st8.pickit_available) #Not found a device so go and test again
@@ -505,6 +510,7 @@ while True:
         # next line removes timed out messages.
         statewindow.check(st8_of_prog.state_now_is_not(pro_st8.pic16_available) and st8_of_prog.state_now_is_not(pro_st8.pickit_inuse)) #cancel if not awaiting chip plugin and not uploading
         if auto_upload and st8_of_prog.state_now_is(pro_st8.pic16_available):
+            pk2cmd_program_chip = main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -M -F'+chosen_hex_file
             programmer_command(pk2cmd_program_chip) #start uploading process here.
             log_event(f'$time Started auto upload')
             window['-ACTION-'].update('uploading to chip\n',disabled=True,button_color='white on black')

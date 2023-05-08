@@ -19,6 +19,7 @@
     "action_button_font" : [ "FreeMono",28,"bold"],
     "action_button_height" : 6, //height in lines of text of action button.
     "action_button_no_programmer" : "Searching for\nPickit 3",
+    "action_button_no_file" : "Choose a HEX file\n to enable programming",
     "action_disabled" : "white on red", //Because AUTO is active.
     "action_enabled" : "white on green", //Because there is a chip available and not in auto.
     "auto_button_font" : [ "FreeMono",22,"bold"],
