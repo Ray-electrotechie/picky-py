@@ -28,4 +28,8 @@ The GUI of Picky-py is shown below. The right hand side is a log. Simply reduce 
 
 [PySimpleGUI](https://www.pysimplegui.org) was chosen to implement the gui because it is a relatively simple application. PySimpleGUI is an event driven program with timeouts to permit background processing; ideal for this application which has no hard real-time deadlines. There is some flexibility in the program to change it's visual characteristics by changing (with care) the configuration JSON file. Perhaps more could be done but....
 
+# The programmer hardware
+
+Pickit 2 and 3 are no longer sold by Microchip. There are several different clones available in the marketplace. Two similar ones have been tested, one labelled Pickit 3 and the other Pickit 3.5+ - both work. However, they do not work out of the box. They must be configured first. This has only been done on MS Windows using the Pickit 2 GUI Programmer (from http://kair.us/projects/pickitminus/) and Pickit 3 Programmer from Microchip archive.  Run either program, plug in the pickit. Then use "tools" and "download the PICkit operating system" and wait. The programmer should then be set up for picky-py
+
 
