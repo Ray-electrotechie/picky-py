@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # NAME: Picky_py
-# VERSION: 1.1.06
+# VERSION: 1.1.05
 # LICENSE: SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only
 # DESCRIPTION:
 #   picky_py - This program has a single goal: to make repetive uploading to the
@@ -21,7 +21,7 @@
 # DESIGN:
 #  The program is based on events, either as a result of users pushing screen buttons or
 #  on time ticks. The state machine ticks at roughly half second intervals.
-#  The pickit hardware is driven by the command linemessage interface of an external program named
+#  The pickit hardware is driven by the command line interface of an external program named
 #  "Pickit minus" which is invoked in a separate process.
 #  The standard output and standard error use files. The standard out file is parsed as necessary.
 # ENVIRONMENT:
@@ -29,7 +29,6 @@
 #The program imports a picky_py.json file from DEF_main_directory in order to load parameters.
 #Some, not all, strings are adjustable by means of the JSON file.
 #Only one programmer per PC is permitted at this time.
-# version 06 add test to see if programmer removed whilst searching for chip.
 MICROCHIP_DEVICE_ID = 30E6
 DEVICE_REVISION  = 1002
 DEVICE_NAME = 'PIC16F15214'
@@ -184,7 +183,7 @@ class messagey:
         if self.timing and ((cancel and not self.critical) or time.monotonic() > self.timeout_at):
             self.timing = False
             self.__update_window(self.default) # erase message
-            #print('message timed out='+self.messagecontent)
+
 
 previous_log_str = ''
 skipped_log = False
@@ -206,77 +205,36 @@ def log_event(event_string):
     else:
         skipped_log = True
         skipped_count += 1
-#A class representing a pickit 3 plugged into the USB socket.
-# The Pickit 3 is accessed using the command given.
-# A subprocess is spawned to run the command and the outputs of data and error
-# are captured in files whose names are fixed at class instatiation time.
-# Pickit is stateful and requires a start command followed by a series of polls
-# to determine if the subprocess has completed. Once it is reported as completed,
-# the polling must cease.
-class pickit:
-    def __init__(self,result_file,error_file):
-        self.result_path = result_file
-        self.error_path = error_file
-        self.process_state = None
-        self.in_progress = None
-        self.finished = False
-    def start_command(self,command):
-        self.file_of_results = open(self.result_path, "w")
-        self.file_of_errors  = open(self.error_path,"w")
-        self.command = command
-        #print("start_command = "+self.command+" with "+self.result_path+" "+self.error_path)
-        try:
-            self.process_state = subprocess.Popen(
-                shlex.split(command), shell=False, stdout=self.file_of_results, stderr=self.file_of_errors)
-            self.inprogress = True
-        except:
-            picky_py_logger.write("\nERROR {} while running {}".format(sys.exc_info()[1], command))
-            exit('unable to spawn subprocess')
-    def test_command_fini(self):
-        self.process_result = self.process_state.poll()
-        self.finished = self.process_result is not None #then there is some result or other.
-        if self.finished: #then close both files. They will be read later.
-            self.file_of_results.close()
-            self.file_of_errors.close()
-            self.result_size = pathlib.Path(self.result_path).stat().st_size
-            self.error_size = pathlib.Path(self.error_path).stat().st_size
-            self.success = self.process_result == 0 and self.error_size == 0
-            #print("Success! test command fini, self.process_result= ",self.process_result, self.error_size)
-        else:
-            self.success = False
-            #print("Fail! test command fini, self.process_result= ",self.process_result, self.error_size)
-        return self.finished, self.success, self.process_result
-    #Then [0] is true if the process is complete [1] is true if the result was a success and [2] tells the error if it is not.
 #programmer_command must only be called either the first time through the program OR after
 #  test_command_fini has reported that the command is finished.
 #Should really be a class with an instantiation of one.
-#def programmer_command(command):
-#    global file_of_results,file_of_errors,process_state,statewindow
-#    ##spawn process.
-#    file_of_results = open(result_file_path, "w")
-#    file_of_errors  = open(error_file_path,"w")
-#    #command_id = 'main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -I'
-#    # main_directory_path+'/pk2cmd-x86_64.AppImage  -PPIC16F15214 -M -F'+upload_path+'/pic16F15214_release_1_0.X.production.hex
-#    #command = 'nrfutil dfu usb-serial -pkg '+chosen_hex_file+' -p '+port_to_program.device+' -b 115200'
-#    try:
-#        process_state = subprocess.Popen(
-#            shlex.split(command), shell=False, stdout=file_of_results, stderr=file_of_errors)
-#    except:
-#        picky_py_logger.write("\nERROR {} while running {}".format(sys.exc_info()[1], command))
-#        exit('unable to spawn subprocess')
-#
-#
-#def test_command_fini():
-#    global file_of_results,file_of_errors,process_state
-#    success = True
-#    finished = process_state.poll() is not None
-#    if finished: #then the process has finished.
-#        file_of_results.close()
-#        file_of_errors.close()
-#        result_size = pathlib.Path(result_file_path).stat().st_size
-#        error_size = pathlib.Path(error_file_path).stat().st_size
-#        success = not(error_size != 0)
-#    return finished,success #first is that the process has terminated, second that it was a success (or not)
+def programmer_command(command):
+    global file_of_results,file_of_errors,process_state,statewindow
+    ##spawn process.
+    file_of_results = open(result_file_path, "w")
+    file_of_errors  = open(error_file_path,"w")
+    #command_id = 'main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -I'
+    # main_directory_path+'/pk2cmd-x86_64.AppImage  -PPIC16F15214 -M -F'+upload_path+'/pic16F15214_release_1_0.X.production.hex
+    #command = 'nrfutil dfu usb-serial -pkg '+chosen_hex_file+' -p '+port_to_program.device+' -b 115200'
+    try:
+        process_state = subprocess.Popen(
+            shlex.split(command), shell=False, stdout=file_of_results, stderr=file_of_errors)
+    except:
+        picky_py_logger.write("\nERROR {} while running {}".format(sys.exc_info()[1], command))
+        exit('unable to spawn subprocess')
+
+
+def test_command_fini():
+    global file_of_results,file_of_errors,process_state
+    success = True
+    finished = process_state.poll() is not None
+    if finished: #then the process has finished.
+        file_of_results.close()
+        file_of_errors.close()
+        result_size = pathlib.Path(result_file_path).stat().st_size
+        error_size = pathlib.Path(error_file_path).stat().st_size
+        success = not(error_size != 0)
+    return finished,success #first is that the process has terminated, second that it was a success (or not)
 
 #takes a filename and a compiled regular expression
 # passes each line of the given file to the regular expression.
@@ -376,7 +334,6 @@ awaiting_chip_plugin = True
 statewindow = messagey('-STATE-','',5.5) #set up the message window with blank entry and 5.5 seconds timeout.
 
 log_event(f'  Thanks to https://www.pysimplegui.org for the simple GUI framework. Version: {PySimpleGui_version}')
-log_event(f'  Thanks to http://kair.us/projects/pickitminus/ for ability to use pickit3 for pic16f15')
 log_event(f'  Thanks to https://github.com/gregkh/usbutils/blob/master/lsusb.py.in\n  Used to identify Pickit plugged into USB.')
 log_event(f'  Python version = {Python_version}')
 log_event(System_info)
@@ -398,7 +355,6 @@ class pro_st8(Enum):
     awaiting_good_chip = 7 #A test is underway to see if there is a chip present
     pickit_awaiting_off =8 #A test is underway to see if there is NO chip present.
 #Note: the reason for the last state is that we have no means of knowing which chip is actually present.
-#Whether the chip has an identifier
 #AFAIK it is not possible to read the chip identifier to determine which chip is in the programming device.
 #Thus, we program the chip, then wait to see the chip removed, then program the next. Such is life.
     
@@ -409,17 +365,7 @@ class prog_state:
         self.prev = before
     def change_to(self, new_state):
         #print('changing state from',self.now,' to ',new_state)
-        if self.now is not pro_st8.pickit_missing and new_state == pro_st8.pickit_missing:
-            statewindow.message('Seeking Pickit 3',False,False)
-        if self.now is pro_st8.pickit_awaiting_off and new_state == pro_st8.awaiting_no_chip:
-            statewindow.message('awaiting PCB removal',False,False)
-        if self.now is not pro_st8.pickit_available and new_state == pro_st8.pickit_available:
-            statewindow.message('Pickit 3 OK\nAwaiting PCB',False,False)
-        if new_state == pro_st8.awaiting_good_chip:
-            statewindow.message(request_chip,False,True)
-        if new_state == pro_st8.pickit_inuse:
-            statewindow.message('Uploading,\ndo not unplug chip',False,True)
-        self.now = new_state    #statewindow.message('',False,False)
+        self.now = new_state
     def current_state():
         return now
     def state_now_is(self,test):
@@ -428,7 +374,11 @@ class prog_state:
         return self.now != test
 st8_of_prog = prog_state(pro_st8.pickit_missing,pro_st8.pickit_missing) #st8 == 'state'
 
-pickit_1 = pickit(result_file_path,error_file_path)
+
+#st8_of_prog.change_to(pro_st8.pickit_missing)
+#
+#Define the command outside of the main loop, just to avoid constantly re-creating it.
+# Should the user change the file name, it will be re-generated correctly in that event handler.
 
 
 #This is the infinite loop where all the work is done.
@@ -447,15 +397,16 @@ while True:
         if not auto_upload : ##should not be an action event anyway if auto is set.
             window['-ACTION-'].update('uploading to chip',disabled=True,button_color='white on black')
             pk2cmd_program_chip = main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -M -F'+chosen_hex_file
-            pickit_1.start_command(pk2cmd_program_chip) #start uploading process here.
+            programmer_command(pk2cmd_program_chip) #start uploading process here.
             log_event(' Started manual upload')
             window['-FILE-'].update(disabled = True)
+            statewindow.message('Uploading,\ndo not unplug chip',False,True)
             st8_of_prog.change_to(pro_st8.pickit_inuse)
         missed_event = False
     if event == '-AUTO-':
         #do not permit auto to be turned on if there is no file chosen.
         if chosen_hex_file is None and not auto_upload :
-            statewindow.message('auto is disabled\nfile must be chosen\nfirst',False,False)
+            statewindow.message('auto is disabled\nfile must be chosen\nfirst',True,False)
             log_event(' Auto upload refused - no file yet chosen')
         else:
             auto_upload = not auto_upload
@@ -488,78 +439,61 @@ while True:
         missed_event = False
     if event == "-TIMEOUT-":
         if st8_of_prog.state_now_is(pro_st8.pickit_awaiting_off):
-            pickit_1.start_command(pk2cmd_what_chip) # Send the command to get the chip info. This time hoping for <no device>
-            window['-ACTION-'].update('Remove the PCB',button_color='white on orange',disabled=True)
+            programmer_command(pk2cmd_what_chip) # Send the command to get the chip info. This time hoping for <no device>
+            statewindow.message('Please remove the chip',False,True)
             st8_of_prog.change_to(pro_st8.awaiting_no_chip) #means that request made, awaiting results.
         if st8_of_prog.state_now_is(pro_st8.awaiting_no_chip):
-#            proc_terminated = test_command_fini()
-            proc_terminated = pickit_1.test_command_fini()
+            proc_terminated = test_command_fini()
             if proc_terminated[0]:  #The command has finished, whether success or not.
-                if proc_terminated[1]:#then with luck it worked.
-                    if parse_file_regex(result_file_path, regex)["Device Name"] == '<no device>':
-                        #then the user has removed the programmed chip.
-                        st8_of_prog.change_to(pro_st8.pickit_available) # but a chip isn't
-                        window['-ACTION-'].update('awaiting next chip',button_color='white on orange',disabled=True)
-                    else:
-                        st8_of_prog.change_to(pro_st8.pickit_awaiting_off) #if command is finished and NOT no device, go command again.
+                if parse_file_regex(result_file_path, regex)["Device Name"] == '<no device>':
+                    #then the user has removed the programmed chip.
+                    st8_of_prog.change_to(pro_st8.pickit_available) # but a chip isn't
+                    statewindow.message('',False,False)
+                    window['-ACTION-'].update('awaiting next chip',button_color='white on orange',disabled=True)
                 else:
-                    if proc_terminated[2] == 10:
-                        #someone unplugged the pickit, go back to searching for it.
-                        st8_of_prog.change_to(pro_st8.pickit_missing)
-                    else:
-                        pickit_1.dump_and_abandon() #give up- too complicated.
-                    
+                    st8_of_prog.change_to(pro_st8.pickit_awaiting_off) #if command is finished and NOT no device, go command again.
             #else if command not terminated, just await next tick with the same state.
         if st8_of_prog.state_now_is(pro_st8.pickit_available):
             #then check for correct chip available
-            pickit_1.start_command(pk2cmd_what_chip)
+            programmer_command(pk2cmd_what_chip)
             log_event(f'$time Seeking {DEVICE_NAME} to programme')
+            statewindow.message(request_chip,False,True)
             st8_of_prog.change_to(pro_st8.awaiting_good_chip) #means that request has been made, results to check
         if st8_of_prog.state_now_is(pro_st8.awaiting_good_chip):
- #           proc_terminated = test_command_fini()
-            proc_terminated = pickit_1.test_command_fini()
+            proc_terminated = test_command_fini()
             if proc_terminated[0]:
-                if proc_terminated[1]:#gosh, it worked and returned success
-                    if parse_file_regex(result_file_path, regex)["Device Name"] == DEVICE_NAME :
-                        st8_of_prog.change_to(pro_st8.pic16_available)
-                        
-                        
-                        
-                        window['-ACTION-'].update(text= DEVICE_NAME+'\nwill be programmed'
-                        if auto_upload else "Push here to upload\n to "+DEVICE_NAME, button_color=con.get("action_disabled") if auto_upload else con.get("action_enabled"),
-                        disabled=True if auto_upload or chosen_hex_file is None else False)
-                        statewindow.message(con.get("action_button_no_file") if chosen_hex_file is None else '' ,False,False)
-                        log_event(f'$time {DEVICE_NAME} will be programmed')
-                    else:
-                        st8_of_prog.change_to(pro_st8.pickit_available) #Not found a device so go and test again
+                if parse_file_regex(result_file_path, regex)["Device Name"] == DEVICE_NAME :
+                    st8_of_prog.change_to(pro_st8.pic16_available)
+                    
+                    
+                    
+                    window['-ACTION-'].update(text= DEVICE_NAME+'\nwill be programmed'
+                       if auto_upload else "Push here to upload\n to "+DEVICE_NAME, button_color=con.get("action_disabled") if auto_upload else con.get("action_enabled"),
+                       disabled=True if auto_upload or chosen_hex_file is None else False)
+                    statewindow.message(con.get("action_button_no_file") if chosen_hex_file is None else '' ,False,False)
+                    log_event(f'$time {DEVICE_NAME} will be programmed')
                 else:
-                    if proc_terminated[2] == 10:
-                        #someone unplugged the pickit, go back to searching for it.
-                        st8_of_prog.change_to(pro_st8.pickit_missing)
-                    else:
-                        pickit_1.dump_and_abandon() #give up- too complicated.
+                    st8_of_prog.change_to(pro_st8.pickit_available) #Not found a device so go and test again
             #else, if not terminated, await tick but no state change.
         if st8_of_prog.state_now_is(pro_st8.pickit_missing):
             #then try to find 
             pickits = []
             get_list_pickit3(pickits)
-            if len(pickits) != 0:
-                if len(pickits) == 1:
-                    #then there is a single Pickit installed. Record the info and set the state.
-                    current_pickit = pickits[0]
-                    window['-ACTION-'].update(text= 'Pickit 3 found,\nchecking code versions')
-                    pickit_1.start_command(pk2cmd_get_info)
-                    st8_of_prog.change_to(pro_st8.pickit_there_awaiting_response)
-                    statewindow.message(f' {current_pickit.product}\ndetected, serial=\n{current_pickit.serial}\n',False,False)
-                    log_event(f' Programmer: {current_pickit.name} {current_pickit.product} with serial= {current_pickit.serial}')
-                else:
-                    statewindow.message('More than one\nprogrammer detected\nonly 1 permitted',False,False)
-                    for programmer in pickits:
-                        log_event(f'Programmer: {programmer.name}{programmer.product} with serial= {programmer.serial}')
+            if len(pickits) == 1:
+                #then there is a single Pickit installed. Record the info and set the state.
+                current_pickit = pickits[0]
+                window['-ACTION-'].update(text= 'Pickit 3 found,\nchecking code versions')
+                programmer_command(pk2cmd_get_info)
+                st8_of_prog.change_to(pro_st8.pickit_there_awaiting_response)
+                statewindow.message(f' {current_pickit.product}\ndetected, serial=\n{current_pickit.serial}\n',True,False)
+                log_event(f' Programmer: {current_pickit.name} {current_pickit.product} with serial= {current_pickit.serial}')
+            else:
+                statewindow.message('More than one\nprogrammer detected\nonly 1 permitted',True,False)
+                for programmer in pickits:
+                    log_event(f'Programmer: {programmer.name}{programmer.product} with serial= {programmer.serial}')
+
         elif st8_of_prog.state_now_is(pro_st8.pickit_there_awaiting_response):
-#            proc_terminated = test_command_fini()
-            proc_terminated = pickit_1.test_command_fini()
-            #print("Checking response from pickit",proc_terminated)
+            proc_terminated = test_command_fini()
             if proc_terminated[0]: #then the remote process has completed.
                 if proc_terminated[1]: #then it completed successfully.
                     versions = parse_file_regex(result_file_path, regex_version)
@@ -569,26 +503,22 @@ while True:
                     st8_of_prog.change_to(pro_st8.pickit_available)
                     window['-ACTION-'].update(text= 'Pickit 3 found,\nsearching for chip')
                 else:
-                    if proc_terminated[2] == 10:
-                        #someone unplugged the pickit, go back to searching for it.
-                        st8_of_prog.change_to(pro_st8.pickit_missing)
-                    else:
-                        pickit_1.dump_and_abandon() #give up- too complicated.
+                    log_event('PK2cmd failed to respond to version request')
+                    st8_of_prog.change_to(pro_st8.pickit_available) #Not found a device so go and test again
             #else do nothing, just wait for process to complete.
         missed_event = False
         # next line removes timed out messages.
         statewindow.check(st8_of_prog.state_now_is_not(pro_st8.pic16_available) and st8_of_prog.state_now_is_not(pro_st8.pickit_inuse)) #cancel if not awaiting chip plugin and not uploading
         if auto_upload and st8_of_prog.state_now_is(pro_st8.pic16_available):
             pk2cmd_program_chip = main_directory_path+'/pk2cmd-x86_64.AppImage  -P'+DEVICE_NAME+' -M -F'+chosen_hex_file
-            pickit_1.start_command(pk2cmd_program_chip) #start uploading process here.
+            programmer_command(pk2cmd_program_chip) #start uploading process here.
             log_event(f'$time Started auto upload')
             window['-ACTION-'].update('uploading to chip\n',disabled=True,button_color='white on black')
             window['-FILE-'].update(disabled = True)
-            statewindow.message('Uploading,\ndo not unplug chip',False,False)
+            statewindow.message('Uploading,\ndo not unplug chip',True,False)
             st8_of_prog.change_to(pro_st8.pickit_inuse)
         elif st8_of_prog.state_now_is(pro_st8.pickit_inuse): #Means the command to program has been sent, but perhaps not yet completed
-#            results = test_command_fini()
-            results = pickit_1.test_command_fini()
+            results = test_command_fini()
             if results[0]: #The command has completed, maybe success of failed. Change state to awaiting chip change
                 st8_of_prog.change_to(pro_st8.pickit_awaiting_off)
                 window['-ACTION-'].update('awaiting chip\nremoval',button_color='white on orange',disabled=True)
@@ -596,16 +526,9 @@ while True:
                     statewindow.message('Success uploading\nunplug now',False,True)
                     msg='Successful upload'
                 else:
-                    if results[2] == 10:
-                        #someone unplugged the pickit, go back to searching for it.
-                        st8_of_prog.change_to(pro_st8.pickit_missing)
-                        msg=' Failed upload'
-                    else:
-                        if results[2] == 37:
-                            #bad hexfile
-                            msg=' Bad Hexfile, failed upload'
-                        pickit_1.dump_and_abandon() #give up- too complicated.
-                    statewindow.message(msg+'\nunplug now',False,True)
+                    #perhaps parse and report error here.
+                    msg=' Failed upload'
+                    statewindow.message('Failed uploading\nunplug now',False,True)
                 log_event(f'$time {msg}')
                 if not auto_upload:
                     window['-FILE-'].update(disabled = False)
