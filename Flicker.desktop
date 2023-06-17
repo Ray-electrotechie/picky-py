@@ -1,0 +1,20 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+#Version 1 for Kubuntu - your mileage may vary on other Linux distributions.
+#the picky_py program may used for different products
+#All use the same version of picky-py
+#In this file:
+#Change the name to the one word product name
+#This name must be repeated in the Exec line as the first argument of picky_py
+#It will look for hex files in the directory "Name"
+#The Icon entry must then identify the Icon file which must be installed in /usr/share/
+#Recommend to use the filename %name.xpm as below
+Name=Flicker
+Comment=Programmer for PIC16
+Exec=sh -c 'python $HOME/picky_py/picky_py1_1.py Flicker'
+Icon=/usr/share/icons/Flicker.xpm
+Terminal=true
+Type=Application
+Categories=Development;
+StartupNotify=true
+NoDisplay=false

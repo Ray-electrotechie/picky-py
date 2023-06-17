@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # NAME: Picky_py
-# VERSION: 1.1.06
+# VERSION: 1.1.07
 # LICENSE: SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only
 # DESCRIPTION:
 #   picky_py - This program has a single goal: to make repetive uploading to the
