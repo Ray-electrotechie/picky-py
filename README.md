@@ -11,7 +11,7 @@
  
 ## Design goals
 
-The main design goal is to enable an operator to program chips very quickly and with a minimum of training. The program tries very hard to identify problems (such as not plugging in the programmer, or plugging in the wrong one) in order to give simple error messages. Setting up the program in the first place, on the other hand, is not automated. It is assumed that one person will be working at any one time on one linux system. Use another computer if two programmers are needed. The program is run under normal end-user privileges. It has a fixed directory structure with fixed except for the directory containing the .hex files which are named on the program's invocation command line.
+The main design goal is to enable an operator to program chips very quickly and with a minimum of training. The program tries very hard to identify problems (such as not plugging in the programmer, or plugging in the wrong one) in order to give simple error messages. Setting up the program in the first place, on the other hand, is not automated. It is assumed that one person will be working at any one time on one linux system. Use another computer if two programmers are needed. The program is run under normal end-user privileges. It has a fixed directory structure with fixed file names except for the directory containing the .hex files which is named on the program's invocation command line.
 
 A comprehensive log is written during the chip programming. It is not rotated neither is it cleared. Some manual housekeeping will be required for intensive use of the package.
  
@@ -27,6 +27,10 @@ The GUI of Picky-py is shown below. The right hand side is a log. Simply reduce 
 ## Design of the program
 
 [PySimpleGUI](https://www.pysimplegui.org) was chosen to implement the gui because it is a relatively simple application. PySimpleGUI is an event driven program with timeouts to permit background processing; ideal for this application which has no hard real-time deadlines. There is some flexibility in the program to change it's visual characteristics by changing (with care) the configuration JSON file. Perhaps more could be done but....
+
+The program follows the normal way PYsimpleGUI programs are written; an initialisation section and then an event driven loop.  Invocations of sub-processes are used when driving the programmer hardware. These are begun in a non-blocking way and the results are checked in the timer tick of PYsimpleGUI. The timer runs at about half second intervals.
+
+The events are evaluated based on a state machine which steps through the states depending on the various return values either of PYsimpleGUI or the results returned from the sub-processes. The only blocking call is choosing a hex file to upload if there is more than one in the upload directory.
 
 # The programmer hardware
 
@@ -47,11 +51,13 @@ drwxrwxr-x 2  user user   Flicker
 -rwxr--r-- 1  user user   picky_py.json         
 -rwxr--r-- 1  user user   pk2cmd-x86_64.AppImage
 </code>
-Flicker is the directory which must contain at least one .hex file to program the Flicker product.  
+Flicker is a sub-directory of the picky_py directory. It must contain at least one .hex file to program the Flicker product.  
 pickit3detect.py is a library used to locate the pickit3 in the usb device chain.   
 picky_py1_1.py is the main program (version at the time of writing)    
-picky_py.json is a commented json file containing some modifyable strings.   
+picky_py.json is a commented json file containing some end-user modifyable strings.   
 pk2cmd-x86_64.AppImage is where the function to drive the Pickit3 is to be found.   
+
+During operation of the program other files will be created - the results and errors of invocations of sub-processes and a log of all activity.
 
 ## Create launch Icon and install
 
@@ -76,7 +82,7 @@ Ensure that typing "python" in a terminal window yields something like:
  Python 3.8.10 (default, May 26 2023, 14:05:08) 
 [GCC 9.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
-/>/>/> 
+\>\>\> 
 </code>
 The version of Python must be higher than 3.7. Type "exit()<cr>" to escape from Python.
 
